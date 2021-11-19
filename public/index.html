@@ -13,9 +13,21 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-purple-950 text-white py-8 font-poppins">
-    <div class="max-w-screen-lg md:mx-auto px-5">
-      <header class="mb-10">
+  <body class="bg-purple-950 text-white pt-8 font-poppins">
+    <div
+      class="
+        flex
+        min-h-screen
+        flex-col
+        justify-between
+        px-5
+        md:px-20
+        lg:px-5
+        max-w-screen-lg
+        mx-auto
+      "
+    >
+      <header class="mb-10 lg:m-0">
         <nav>
           <img src="/src/images/logo.svg" alt="logo" class="w-40" />
         </nav>
@@ -23,23 +35,35 @@
 
       <main class="lg:flex items-center">
         <div class="flex-1">
-          <img src="/src/images/illustration-mockups.svg" alt="" class="object-contain" />
+          <img
+            src="/src/images/illustration-mockups.svg"
+            alt=""
+            class="object-contain max-w-full"
+          />
         </div>
-        <div class="flex-1 lg:ml-14">
-          <h1 class="text-4xl font-semibold mb-7">Build The Community Your Fans Will Love</h1>
+        <div class="text-center flex-1 lg:ml-14 lg:text-left">
+          <h1 class="text-2xl mt-16 md:text-4xl font-semibold mb-7 lg:mt-0">
+            Build The Community Your Fans Will Love
+          </h1>
           <p>
             Huddle re-imagines the way we build communities. You have a voice, but so does your
             audience. Create connections with your users as you engage in genuine discussion.
           </p>
-          <button class="bg-white py-2 px-8 text-purple-950 mt-6">Register</button>
+          <button class="bg-white py-2 drop-shadow-2xl px-8 text-purple-950 mt-6 rounded-3xl">
+            Register
+          </button>
         </div>
       </main>
 
-      <footer>
+      <footer class="mt-16 text-center">
         <p class="attribution">
           Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-          Coded by <a href="#">Your Name Here</a>.
+          <a
+            class="text-purple-970"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Godwin Opara</a>.
         </p>
       </footer>
     </div>
