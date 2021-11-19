@@ -6,8 +6,8 @@ module.exports = {
       poppins: ["Poppins", "sans-serif"],
     },
     backgroundImage: {
-      desktop: "url(./src/images/bg-desktop.svg)",
-      mobile: "url(./src/images/bg-mobile.svg)",
+      desktop: "url(/src/images/bg-desktop.svg)",
+      mobile: "url(/src/images/bg-mobile.svg)",
     },
     extend: {
       colors: {
